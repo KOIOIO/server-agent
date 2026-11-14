@@ -1,0 +1,4 @@
+{
+  "model_a": {"base_url": "https://api.deepseek.com", "model": "deepseek-chat", "api_key_env": "DEEPSEEK_API_KEY"},
+  "model_b": {"base_url": "https://api.deepseek.com", "model": "deepseek-reasoner", "api_key_env": "DEEPSEEK_API_KEY"}
+}

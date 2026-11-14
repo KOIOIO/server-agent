@@ -1,0 +1,234 @@
+{
+  "batch_no": "FRESH-DOC-20261109-04",
+  "service_type": "文档分析",
+  "source_name": "fresh-document-analysis-9-v4.json",
+  "content": "第三套全新文档分析测试数据，共 9 条，包含 .doc、.txt、.docx、.pdf 附件。",
+  "created_by": "codex-test-data",
+  "cases": [
+    {
+      "case_no": "DOC-V3-001",
+      "sort_no": 1,
+      "description": "Shift Handover Note",
+      "question": "请从交接记录中提取地点、待处理问题、检查时间和负责人。",
+      "contents": [
+        {
+          "direction": "input",
+          "field_name": "prompt",
+          "content_type": "text",
+          "content_value": "请从交接记录中提取地点、待处理问题、检查时间和负责人。",
+          "sequence_no": 1
+        },
+        {
+          "direction": "input",
+          "field_name": "file",
+          "content_type": "file",
+          "content_value": "e1xydGYxXGFuc2lcZGVmZjAge1xmb250dGJsIHtcZjAgQXJpYWw7fX1cZjBcZnMyNCBTaGlmdCBIYW5kb3ZlciBOb3RlXGxpbmUgU2l0ZTogTm9ydGggV29ya3Nob3AuIFNoaWZ0IGRhdGU6IDIwMjYtMTEtMTIuIE9wZW4gaXNzdWU6IGNvbnZleW9yIEIgdmlicmF0aW9uLiBOZXh0IGluc3BlY3Rpb246IDA5OjMwLiBPd25lcjogTGluIFdlaS59",
+          "mime_type": "application/msword",
+          "file_name": "fresh-document-v3-001.doc",
+          "size_bytes": 195,
+          "sequence_no": 1
+        }
+      ]
+    },
+    {
+      "case_no": "DOC-V3-002",
+      "sort_no": 2,
+      "description": "Library Room Booking",
+      "question": "请概括会议室预订日期、时段、人数上限和联系人。",
+      "contents": [
+        {
+          "direction": "input",
+          "field_name": "prompt",
+          "content_type": "text",
+          "content_value": "请概括会议室预订日期、时段、人数上限和联系人。",
+          "sequence_no": 1
+        },
+        {
+          "direction": "input",
+          "field_name": "file",
+          "content_type": "file",
+          "content_value": "TGlicmFyeSBSb29tIEJvb2tpbmcKUm9vbTogQ2VkYXIgMi4gQm9va2luZyBkYXRlOiAyMDI2LTExLTE1LiBUaW1lOiAxMzowMC0xNTozMC4gQ2FwYWNpdHk6IDE4IHBlb3BsZS4gQ29udGFjdDogTWVpIENoZW4uCg==",
+          "mime_type": "text/plain",
+          "file_name": "fresh-document-v3-002.txt",
+          "size_bytes": 121,
+          "sequence_no": 1
+        }
+      ]
+    },
+    {
+      "case_no": "DOC-V3-003",
+      "sort_no": 3,
+      "description": "Community Garden Plan",
+      "question": "请提取地块编号、种植作物、种植日期和浇水频率。",
+      "contents": [
+        {
+          "direction": "input",
+          "field_name": "prompt",
+          "content_type": "text",
+          "content_value": "请提取地块编号、种植作物、种植日期和浇水频率。",
+          "sequence_no": 1
+        },
+        {
+          "direction": "input",
+          "field_name": "file",
+          "content_type": "file",
+          "content_value": "UEsDBBQACAAIAAAAAAAAAAAAAAAAAAAAAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbHyOvU7EMBCEX8Vyi2IHCoRQkiv4KYEiPIDlbBILe9fy7oXc26NwxxXooJ6Z75tmt6aoFigcCFt9bWqtAD0NAadWv/fP1Z3edU1/yMBqTRG51bNIvreW/QzJsaEMuKY4UklO2FCZbHb+w01gb+r61npCAZRKNobumkcY3T6KeloF8KgtEFmrh2Nxc7Xa5RyDdxII7YLDL0t1MpgC8bvDc8h8taao7UXDlvwtOO1eFyglDKDeXJEXl6DV9pPKYAfy+wQo5n/MhZ80jsHDeb/RciEPzAGnFM05SS7gz3/bHzJw9zUAUEsHCMxUjBDjAAAAnAEAAFBLAwQUAAgACAAAAAAAAAAAAAAAAAAAAAAACwAAAF9yZWxzLy5yZWxzjM8xT8UgFAXgv0LuLrd1MMaUdjEmXU39AQRuKRG4BFDx37s4vL684a0nJ9/JmZYeg/imUj0nBaMcQFAybH1yCj62t4dnWObpnYJunlM9fK6ix5CqgqO1/IJYzUFRV8mZUo9h5xJ1q5KLw6zNp3aEj8PwhOXSgLMpVqugrHYEsf1musfmffeGXtl8RUrtxsRVA8Smi6Om4IeLRfsfyx4D4Dzh6eL8NwBQSwcINlfe3KcAAAAYAQAAUEsDBBQACAAIAAAAAAAAAAAAAAAAAAAAAAARAAAAd29yZC9kb2N1bWVudC54bWxskEGL2zAQhf/KoLsl2aRpKmLnEEiugbb0rFqztsDSGGkSxfvrFxvCwrKXTxd9jzfveHqGCR6YsqfYilpqARh7cj4Orfj751IdxKk7FuOovweMDM8wxWxKK0bm2SiV+xGDzZJmjM8wvVEKlrOkNKhCyc2JeszZxyFMqtF6r4L1UayR/8kt6zuvSCu4O1MI9+h5gatNDiPcJhuPqhjuVqaN81frNhEbuFb1TwnnRLOBfsSUFmAKlgmz3HLYxwGcZTTQ6GZf6V2lDxL+Wcbk42AAH7hKhcDZJUu4+JQZEj48lk+n+SW/bZSx59vWaB5+v0NZR6qbZqcFFDO2ov5x2GmhthNef9VrBlWMo/4eMHL3MQBQSwcIUf+1jhEBAACVAQAAUEsBAhQAFAAIAAgAAAAAAMxUjBDjAAAAnAEAABMAAAAAAAAAAAAAAAAAAAAAAFtDb250ZW50X1R5cGVzXS54bWxQSwECFAAUAAgACAAAAAAANlfe3KcAAAAYAQAACwAAAAAAAAAAAAAAAAAkAQAAX3JlbHMvLnJlbHNQSwECFAAUAAgACAAAAAAAUf+1jhEBAACVAQAAEQAAAAAAAAAAAAAAAAAEAgAAd29yZC9kb2N1bWVudC54bWxQSwUGAAAAAAMAAwC5AAAAVAMAAAAA",
+          "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "file_name": "fresh-document-v3-003.docx",
+          "size_bytes": 1059,
+          "sequence_no": 1
+        }
+      ]
+    },
+    {
+      "case_no": "DOC-V3-004",
+      "sort_no": 4,
+      "description": "Equipment Inspection",
+      "question": "请说明设备编号、检查结论以及下次检查日期。",
+      "contents": [
+        {
+          "direction": "input",
+          "field_name": "prompt",
+          "content_type": "text",
+          "content_value": "请说明设备编号、检查结论以及下次检查日期。",
+          "sequence_no": 1
+        },
+        {
+          "direction": "input",
+          "field_name": "file",
+          "content_type": "file",
+          "content_value": "JVBERi0xLjQKMSAwIG9iago8PCAvVHlwZSAvQ2F0YWxvZyAvUGFnZXMgMiAwIFIgPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1R5cGUgL1BhZ2VzIC9LaWRzIFszIDAgUl0gL0NvdW50IDEgPj4KZW5kb2JqCjMgMCBvYmoKPDwgL1R5cGUgL1BhZ2UgL1BhcmVudCAyIDAgUiAvTWVkaWFCb3ggWzAgMCA2MTIgNzkyXSAvUmVzb3VyY2VzIDw8IC9Gb250IDw8IC9GMSA0IDAgUiA+PiA+PiAvQ29udGVudHMgNSAwIFIgPj4KZW5kb2JqCjQgMCBvYmoKPDwgL1R5cGUgL0ZvbnQgL1N1YnR5cGUgL1R5cGUxIC9CYXNlRm9udCAvSGVsdmV0aWNhID4+CmVuZG9iago1IDAgb2JqCjw8IC9MZW5ndGggMTY1ID4+CnN0cmVhbQpCVCAvRjEgMTIgVGYgNTAgNzQwIFRkIChFcXVpcG1lbnQgSW5zcGVjdGlvbiAtIEFzc2V0IElEOiBFUS01ODQuIEluc3BlY3Rpb24gZGF0ZTogMjAyNi0xMC0yMS4gUmVzdWx0OiBwYXNzIHdpdGggbWlub3IgcGFpbnQgd2Vhci4gTmV4dCBpbnNwZWN0aW9uOiAyMDI3LTA0LTIxLikgVGogRVQKZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgNgowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwMDkgMDAwMDAgbiAKMDAwMDAwMDA1OCAwMDAwMCBuIAowMDAwMDAwMTE1IDAwMDAwIG4gCjAwMDAwMDAyNDEgMDAwMDAgbiAKMDAwMDAwMDMxMSAwMDAwMCBuIAp0cmFpbGVyCjw8IC9TaXplIDYgL1Jvb3QgMSAwIFIgPj4Kc3RhcnR4cmVmCjUyNwolJUVPRgo=",
+          "mime_type": "application/pdf",
+          "file_name": "fresh-document-v3-004.pdf",
+          "size_bytes": 710,
+          "sequence_no": 1
+        }
+      ]
+    },
+    {
+      "case_no": "DOC-V3-005",
+      "sort_no": 5,
+      "description": "Workshop Registration",
+      "question": "请总结活动名称、日期、开始时间和候补名额。",
+      "contents": [
+        {
+          "direction": "input",
+          "field_name": "prompt",
+          "content_type": "text",
+          "content_value": "请总结活动名称、日期、开始时间和候补名额。",
+          "sequence_no": 1
+        },
+        {
+          "direction": "input",
+          "field_name": "file",
+          "content_type": "file",
+          "content_value": "V29ya3Nob3AgUmVnaXN0cmF0aW9uClNlc3Npb246IEludHJvIHRvIFJvYm90aWNzLiBEYXRlOiAyMDI2LTEyLTAzLiBTdGFydDogMTA6MDAuIFJlZ2lzdGVyZWQgc2VhdHM6IDI0LiBXYWl0bGlzdCBzZWF0czogNi4K",
+          "mime_type": "text/plain",
+          "file_name": "fresh-document-v3-005.txt",
+          "size_bytes": 123,
+          "sequence_no": 1
+        }
+      ]
+    },
+    {
+      "case_no": "DOC-V3-006",
+      "sort_no": 6,
+      "description": "Parcel Incident Record",
+      "question": "请指出包裹编号、发现的问题、物品状态和后续处理。",
+      "contents": [
+        {
+          "direction": "input",
+          "field_name": "prompt",
+          "content_type": "text",
+          "content_value": "请指出包裹编号、发现的问题、物品状态和后续处理。",
+          "sequence_no": 1
+        },
+        {
+          "direction": "input",
+          "field_name": "file",
+          "content_type": "file",
+          "content_value": "UEsDBBQACAAIAAAAAAAAAAAAAAAAAAAAAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbHyOvU7EMBCEX8Vyi2IHCoRQkiv4KYEiPIDlbBILe9fy7oXc26NwxxXooJ6Z75tmt6aoFigcCFt9bWqtAD0NAadWv/fP1Z3edU1/yMBqTRG51bNIvreW/QzJsaEMuKY4UklO2FCZbHb+w01gb+r61npCAZRKNobumkcY3T6KeloF8KgtEFmrh2Nxc7Xa5RyDdxII7YLDL0t1MpgC8bvDc8h8taao7UXDlvwtOO1eFyglDKDeXJEXl6DV9pPKYAfy+wQo5n/MhZ80jsHDeb/RciEPzAGnFM05SS7gz3/bHzJw9zUAUEsHCMxUjBDjAAAAnAEAAFBLAwQUAAgACAAAAAAAAAAAAAAAAAAAAAAACwAAAF9yZWxzLy5yZWxzjM8xT8UgFAXgv0LuLrd1MMaUdjEmXU39AQRuKRG4BFDx37s4vL684a0nJ9/JmZYeg/imUj0nBaMcQFAybH1yCj62t4dnWObpnYJunlM9fK6ix5CqgqO1/IJYzUFRV8mZUo9h5xJ1q5KLw6zNp3aEj8PwhOXSgLMpVqugrHYEsf1musfmffeGXtl8RUrtxsRVA8Smi6Om4IeLRfsfyx4D4Dzh6eL8NwBQSwcINlfe3KcAAAAYAQAAUEsDBBQACAAIAAAAAAAAAAAAAAAAAAAAAAARAAAAd29yZC9kb2N1bWVudC54bWxskM2O2zAMhF+F0N2S7G7TVIi9hwILBL0E/XkAVWIcAxJpSHKU9OkXCpBbLh8vHHJmDu+3GOCKKS9Mo+ilFoDk2C80j+Lvn49uL96nQzWe3RaRCtxioGzqKC6lrEap7C4YbZa8It1iOHOKtmTJaVaVk18TO8x5oTkGNWi9U9EuJNrJf+zvba4NqaFMJ5scBjiSW3z79gsdJ39Q1ZSpMT24vpYZOP3svusv/V42IS5X9AYGPey6vu/0N+h3ZtASjjlvaIC3ggmcTYUJKhYJP5gKUskGMtqAHix52MjbaGf0Ej44BK7dthogLsv5DhnJY5IvDWZ05fQwuM6//0NtpfXD8KYFVHMZRf91/6aFeiR67qpnLaoaz26LSGX6HABQSwcIKRD7SR0BAAClAQAAUEsBAhQAFAAIAAgAAAAAAMxUjBDjAAAAnAEAABMAAAAAAAAAAAAAAAAAAAAAAFtDb250ZW50X1R5cGVzXS54bWxQSwECFAAUAAgACAAAAAAANlfe3KcAAAAYAQAACwAAAAAAAAAAAAAAAAAkAQAAX3JlbHMvLnJlbHNQSwECFAAUAAgACAAAAAAAKRD7SR0BAAClAQAAEQAAAAAAAAAAAAAAAAAEAgAAd29yZC9kb2N1bWVudC54bWxQSwUGAAAAAAMAAwC5AAAAYAMAAAAA",
+          "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "file_name": "fresh-document-v3-006.docx",
+          "size_bytes": 1071,
+          "sequence_no": 1
+        }
+      ]
+    },
+    {
+      "case_no": "DOC-V3-007",
+      "sort_no": 7,
+      "description": "Quarterly Water Use",
+      "question": "请列出三个月的用水量，并指出用水量最低的月份。",
+      "contents": [
+        {
+          "direction": "input",
+          "field_name": "prompt",
+          "content_type": "text",
+          "content_value": "请列出三个月的用水量，并指出用水量最低的月份。",
+          "sequence_no": 1
+        },
+        {
+          "direction": "input",
+          "field_name": "file",
+          "content_type": "file",
+          "content_value": "JVBERi0xLjQKMSAwIG9iago8PCAvVHlwZSAvQ2F0YWxvZyAvUGFnZXMgMiAwIFIgPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1R5cGUgL1BhZ2VzIC9LaWRzIFszIDAgUl0gL0NvdW50IDEgPj4KZW5kb2JqCjMgMCBvYmoKPDwgL1R5cGUgL1BhZ2UgL1BhcmVudCAyIDAgUiAvTWVkaWFCb3ggWzAgMCA2MTIgNzkyXSAvUmVzb3VyY2VzIDw8IC9Gb250IDw8IC9GMSA0IDAgUiA+PiA+PiAvQ29udGVudHMgNSAwIFIgPj4KZW5kb2JqCjQgMCBvYmoKPDwgL1R5cGUgL0ZvbnQgL1N1YnR5cGUgL1R5cGUxIC9CYXNlRm9udCAvSGVsdmV0aWNhID4+CmVuZG9iago1IDAgb2JqCjw8IC9MZW5ndGggMTUxID4+CnN0cmVhbQpCVCAvRjEgMTIgVGYgNTAgNzQwIFRkIChRdWFydGVybHkgV2F0ZXIgVXNlIC0gQnVpbGRpbmc6IEVhc3QgQW5uZXguIEp1bHk6IDExOCBtMy4gQXVndXN0OiAxMDQgbTMuIFNlcHRlbWJlcjogOTcgbTMuIExvd2VzdC11c2UgbW9udGg6IFNlcHRlbWJlci4pIFRqIEVUCmVuZHN0cmVhbQplbmRvYmoKeHJlZgowIDYKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDA5IDAwMDAwIG4gCjAwMDAwMDAwNTggMDAwMDAgbiAKMDAwMDAwMDExNSAwMDAwMCBuIAowMDAwMDAwMjQxIDAwMDAwIG4gCjAwMDAwMDAzMTEgMDAwMDAgbiAKdHJhaWxlcgo8PCAvU2l6ZSA2IC9Sb290IDEgMCBSID4+CnN0YXJ0eHJlZgo1MTMKJSVFT0YK",
+          "mime_type": "application/pdf",
+          "file_name": "fresh-document-v3-007.pdf",
+          "size_bytes": 696,
+          "sequence_no": 1
+        }
+      ]
+    },
+    {
+      "case_no": "DOC-V3-008",
+      "sort_no": 8,
+      "description": "Travel Reimbursement Memo",
+      "question": "请提取员工姓名、行程、出行日期和车票金额。",
+      "contents": [
+        {
+          "direction": "input",
+          "field_name": "prompt",
+          "content_type": "text",
+          "content_value": "请提取员工姓名、行程、出行日期和车票金额。",
+          "sequence_no": 1
+        },
+        {
+          "direction": "input",
+          "field_name": "file",
+          "content_type": "file",
+          "content_value": "e1xydGYxXGFuc2lcZGVmZjAge1xmb250dGJsIHtcZjAgQXJpYWw7fX1cZjBcZnMyNCBUcmF2ZWwgUmVpbWJ1cnNlbWVudCBNZW1vXGxpbmUgRW1wbG95ZWU6IFFpYW4gWXUuIFJvdXRlOiBIYW5nemhvdSB0byBOYW5qaW5nLiBUcmF2ZWwgZGF0ZTogMjAyNi0xMS0wMi4gUmFpbCBmYXJlOiBDTlkgMTg2LiBSZWNlaXB0IHN0YXR1czogYXR0YWNoZWQufQ==",
+          "mime_type": "application/msword",
+          "file_name": "fresh-document-v3-008.doc",
+          "size_bytes": 199,
+          "sequence_no": 1
+        }
+      ]
+    },
+    {
+      "case_no": "DOC-V3-009",
+      "sort_no": 9,
+      "description": "Product Return Summary",
+      "question": "请概括订单号、退货原因、退款金额和检查状态。",
+      "contents": [
+        {
+          "direction": "input",
+          "field_name": "prompt",
+          "content_type": "text",
+          "content_value": "请概括订单号、退货原因、退款金额和检查状态。",
+          "sequence_no": 1
+        },
+        {
+          "direction": "input",
+          "field_name": "file",
+          "content_type": "file",
+          "content_value": "UEsDBBQACAAIAAAAAAAAAAAAAAAAAAAAAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbHyOvU7EMBCEX8Vyi2IHCoRQkiv4KYEiPIDlbBILe9fy7oXc26NwxxXooJ6Z75tmt6aoFigcCFt9bWqtAD0NAadWv/fP1Z3edU1/yMBqTRG51bNIvreW/QzJsaEMuKY4UklO2FCZbHb+w01gb+r61npCAZRKNobumkcY3T6KeloF8KgtEFmrh2Nxc7Xa5RyDdxII7YLDL0t1MpgC8bvDc8h8taao7UXDlvwtOO1eFyglDKDeXJEXl6DV9pPKYAfy+wQo5n/MhZ80jsHDeb/RciEPzAGnFM05SS7gz3/bHzJw9zUAUEsHCMxUjBDjAAAAnAEAAFBLAwQUAAgACAAAAAAAAAAAAAAAAAAAAAAACwAAAF9yZWxzLy5yZWxzjM8xT8UgFAXgv0LuLrd1MMaUdjEmXU39AQRuKRG4BFDx37s4vL684a0nJ9/JmZYeg/imUj0nBaMcQFAybH1yCj62t4dnWObpnYJunlM9fK6ix5CqgqO1/IJYzUFRV8mZUo9h5xJ1q5KLw6zNp3aEj8PwhOXSgLMpVqugrHYEsf1musfmffeGXtl8RUrtxsRVA8Smi6Om4IeLRfsfyx4D4Dzh6eL8NwBQSwcINlfe3KcAAAAYAQAAUEsDBBQACAAIAAAAAAAAAAAAAAAAAAAAAAARAAAAd29yZC9kb2N1bWVudC54bWxskEGP0zAQhf/KyGcaJ6Gwi9VkDyAkJMSuWjhwNPY0sYjHlj3GLb8euaIXxOWby5s3b97h6eI3+IUpu0CTGLpeAJIJ1tEyiW9fP+4exdN8qMoGUzwSw8VvlFWdxMoclZTZrOh17kJEuvjtHJLXnLuQFllDsjEFgzk7Wvwmx75/K712JJrlj2CvbcaG1MDzSwq2GIYjckkEp+K9TteDrIrnxnRj/HftOVlMCp6PH3YPD8O+g78+Cizmn7BpH1+BDxY3+Fy83o3d/UJCnQMpyNWxWcERY/KOGYmb5lzIKnj/5TuMr9918IlyRMMuEGTWXLKCiNTK6v6bMaPhl1vGuJx+Q229DeO47wVUtU5iePO474W8PXXXynszsiobTPFIPP8ZAFBLBwjRo3Y9IgEAAKgBAABQSwECFAAUAAgACAAAAAAAzFSMEOMAAACcAQAAEwAAAAAAAAAAAAAAAAAAAAAAW0NvbnRlbnRfVHlwZXNdLnhtbFBLAQIUABQACAAIAAAAAAA2V97cpwAAABgBAAALAAAAAAAAAAAAAAAAACQBAABfcmVscy8ucmVsc1BLAQIUABQACAAIAAAAAADRo3Y9IgEAAKgBAAARAAAAAAAAAAAAAAAAAAQCAAB3b3JkL2RvY3VtZW50LnhtbFBLBQYAAAAAAwADALkAAABlAwAAAAA=",
+          "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "file_name": "fresh-document-v3-009.docx",
+          "size_bytes": 1076,
+          "sequence_no": 1
+        }
+      ]
+    }
+  ]
+}
